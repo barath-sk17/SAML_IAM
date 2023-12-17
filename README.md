@@ -25,3 +25,29 @@ This project showcases a simple web application using Express.js, Passport.js, a
 
    ```bash
    git clone https://github.com/barath-sk17/SAML_IAM.git
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+3. Configure SAML settings:
+
+Edit the SAML settings in app.js to match your SAML provider's details.
+
+4. Run the application:
+
+   ```bash
+   npm start
+
+## Usage
+Visit http://localhost:3000 in your web browser.
+Click on the "Login" button to initiate the SAML authentication process.
+Upon successful authentication, you will be redirected to the home page.
+The home page displays a welcome message with your username and a "Logout" button.
+
+## Dependencies
+- Express.js
+- Passport.js
+- passport-saml
+
